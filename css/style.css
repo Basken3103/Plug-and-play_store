@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #ddd;
+    border-top: 1px solid #aaa;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 10px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+header input {
+    border: none;
+    background: transparent;
+}
+
+.hero {
+    background-image: linear-gradient(#7e202950, #6c111a50), url(../img/Musikbanner.jpg);
+    min-height: 250px;
+    background-size: cover;
+    background-position: 50% 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-shadow: #000 2px 2px 4px;
+}
+
+
+
+@media only screen and (min-width:700px) {
+    .search input {
+        min-width: 300px;
+    }
+
+    header button {
+        font-size: 165%;
+    }
+
+    .hero {
+        min-height: 400px;
+    }
+}

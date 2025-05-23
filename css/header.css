@@ -1,0 +1,39 @@
+header {
+    border: 1px solid #000;
+}
+
+.top-bar {
+    background-color: #5272f2;
+    color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.logo {
+    height: 60px;
+}
+
+.top-bar h1 {
+    flex-grow: 1;
+    text-align: center;
+    margin: 0;
+    font-size: 2em;
+    margin-left: 57px;
+}
+
+.search-cart {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.search-box {
+    height: 24px;
+    width: 120px;
+    border: 1px solid #999;
+    background-color: #ddd;
+    padding: 4px;
+    border-radius: 16px;
+}
