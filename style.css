@@ -25,16 +25,13 @@ header {
     text-align: center;
     margin: 0;
     font-size: 2em;
+    margin-left: 57px;
 }
 
 .search-cart {
     display: flex;
     align-items: center;
     gap: 10px;
-}
-
-.icon {
-    height: 24px;
 }
 
 .search-box {
