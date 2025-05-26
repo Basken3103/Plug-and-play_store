@@ -9,19 +9,20 @@ main {
 }
 
 .categories {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 40px;
     padding-top: 20px;
 }
 
 
 .category {
-    width: 120px;
+    display: flex;
+    flex-direction: column;
 }
 
 
 .category img {
-    width: 100%;
+    height: 200px;
+    aspect-ratio: auto;
 }
