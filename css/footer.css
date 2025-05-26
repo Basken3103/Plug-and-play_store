@@ -6,6 +6,20 @@ footer {
     font-size: 0.9em;
 }
 
-.footer-section {
-    max-width: 200px;
+
+.footer-section h3 {
+    margin-bottom: 10px;
+    /* Afstand mellem overskrift og tekst */
+    font-style: italic;
+}
+
+.footer-section p {
+    margin: 6px 0;
+    /* Lodret afstand mellem linjer */
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
