@@ -3,19 +3,19 @@ footer {
     justify-content: space-around;
     background-color: #e0e0e0;
     padding: 20px;
-    font-size: 0.9em;
+    font-size: 1.2em;
 }
 
 
 .footer-section h3 {
     margin-bottom: 10px;
     /* Afstand mellem overskrift og tekst */
-    font-style: italic;
+    font-style: black italic;
 }
 
-.footer-section p {
-    margin: 6px 0;
-    /* Lodret afstand mellem linjer */
+p {
+    line-height: 2;
+    /* Øger linjeafstand */
 }
 
 footer {

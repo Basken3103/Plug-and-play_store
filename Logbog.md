@@ -12,3 +12,7 @@ Fik tilføjet forstørrelsesglasset og indkøbskurven + at jeg fik centreret ove
 # Lørdag d. 24/5
 
 Jeg fik lavet det meste af min css på min og gik i gang med at sætte instrument billeder ind.
+
+# Mandag d. 26/5
+
+Jeg gik i gang med min logbog og fik indsat flere billeder på forsiden. Billederne står som de skal nu, så næste step er at arbejde med footeren. 
