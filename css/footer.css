@@ -8,8 +8,12 @@ footer {
 
 .footer-section.kontakt p,
 .footer-section.adresse p {
-    line-height: 2.5;
+    line-height: 3.8;
     /* Øget linjeafstand i de to venstre kolonner */
+    margin-top: 20px;
+}
+
+.kontakt p:nth-of-type(1) {
     margin-bottom: 30px;
 }
 
