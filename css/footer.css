@@ -6,6 +6,17 @@ footer {
     font-size: 1.2em;
 }
 
+.footer-section h3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    /* Black */
+    font-style: italic;
+    /* Italic */
+    font-size: 22px;
+    /* Justér efter behov */
+}
+
+
 .footer-section.kontakt p,
 .footer-section.adresse p {
     line-height: 3.8;
