@@ -1,0 +1,88 @@
+.how-to-play {
+    font-family: sans-serif;
+}
+
+.intro {
+    background-color: #4b1674;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.intro h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.steps {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.step {
+    max-width: 180px;
+    margin: 20px;
+}
+
+.step img {
+    width: 110px;
+    margin-bottom: 0px;
+}
+
+.step h3 {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.step p {
+    font-size: 0.9em;
+}
+
+.video-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.video-section h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.videos {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.video-card {
+    max-width: 200px;
+    text-align: center;
+}
+
+.video-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.video-card p {
+    margin: 10px 0 5px;
+    font-weight: 500;
+}
+
+.video-card button {
+    background-color: #7b44c6;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.video-card button:hover {
+    background-color: #5f32a5;
+}
