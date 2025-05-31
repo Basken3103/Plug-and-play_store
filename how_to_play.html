@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="/css/main.css" />
     <link rel="stylesheet" href="/css/footer.css" />
     <link rel="stylesheet" href="/css/how_to_play.css" />
+    <link rel="stylesheet" href="/css/lightbox.css" />
 </head>
 
 <body id="how_to_play">
@@ -51,17 +52,17 @@
                     <p>Hvad vil du gerne lære at spille?</p>
                 </div>
                 <div class="step">
-                    <img src="ikon2.png" alt="Instruktionsvideoer">
+                    <img src="img/Ikon2.JPG" alt="Instruktionsvideoer">
                     <h3>Se instruktionsvideoer</h3>
                     <p>Nemme og korte.</p>
                 </div>
                 <div class="step">
-                    <img src="ikon3.png" alt="Øvelser">
+                    <img src="img/Ikon3.JPG" alt="Øvelser">
                     <h3>Følg øvelserne</h3>
                     <p>Fra basistrin til lette sange.</p>
                 </div>
                 <div class="step">
-                    <img src="ikon4.png" alt="Backingtrack">
+                    <img src="img/Ikon4.JPG" alt="Backingtrack">
                     <h3>Spil med backingtrack</h3>
                     <p>Føl dig som en del af et band!</p>
                 </div>
@@ -71,18 +72,27 @@
                 <h2>Instruktionsvideoer</h2>
                 <div class="videos">
                     <div class="video-card">
-                        <img src="guitar.png" alt="Guitar for begyndere">
-                        <p>Guitar for begyndere</p>
+                        <img src="img/Guitar for begyndere.JPG" alt="Guitar for begyndere">
+                        <p><strong>Guitar for begyndere</strong></p>
+                        <button onclick="openVideo(//www.youtube.com/watch?v=BBz-Jyr23M4&ab_channel=AndyGuitar)">Spil
+                            nu</button>
+                    </div>
+                    <!-- Modal video container -->
+                    <div id="videoModal" class="modal">
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <iframe id="videoFrame" width="100%" height="400px" frameborder="0"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="video-card">
+                        <img src="img/Pige der spiller trommer.JPG" alt="Slagtøj basics">
+                        <p><strong>Slagtøj basics</strong></p>
                         <button>Spil nu</button>
                     </div>
                     <div class="video-card">
-                        <img src="drums.png" alt="Slagtøj basics">
-                        <p>Slagtøj basics</p>
-                        <button>Spil nu</button>
-                    </div>
-                    <div class="video-card">
-                        <img src="keyboard.png" alt="Keyboard">
-                        <p>Spil din første melodi på keyboard</p>
+                        <img src="img/Klaverperson.JPG" alt="Keyboard">
+                        <p><strong>Spil din første melodi på keyboard</strong></p>
                         <button>Spil nu</button>
                     </div>
                 </div>
