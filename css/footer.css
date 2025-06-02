@@ -16,7 +16,6 @@ footer {
     /* Justér efter behov */
 }
 
-
 .footer-section.kontakt p,
 .footer-section.adresse p {
     line-height: 3.8;
@@ -32,6 +31,16 @@ footer {
     line-height: 1.4;
     /* Kompakt linjeafstand i højre kolonne */
     margin-bottom: 4px;
+}
+
+footer {
+    width: 100vw;
+    /* Brug hele bredden af browserens viewport */
+    margin-left: calc(-50vw + 50%);
+    /* Trækker den ud af en centreret container */
+    background-color: #e0e0e0;
+    padding: 40px 60px;
+    box-sizing: border-box;
 }
 
 

@@ -6,13 +6,19 @@
     background-color: #4b1674;
     color: white;
     text-align: center;
-    padding: 30px 20px;
+    padding: 40px 20px;
 }
 
 .intro h1 {
     font-size: 2em;
     margin-bottom: 10px;
+
 }
+
+.intro {
+    margin-bottom: 30px;
+}
+
 
 .steps {
     display: flex;
