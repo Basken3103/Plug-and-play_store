@@ -16,6 +16,13 @@ body {
     text-shadow: #000 2px 2px 4px;
 }
 
+.submenu {
+    display: none;
+}
+
+.has-submenu:hover .submenu {
+    display: block;
+}
 
 
 @media only screen and (min-width:700px) {
